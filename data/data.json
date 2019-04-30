@@ -1,0 +1,14 @@
+[
+    {"name": "Skool Luv Affair", "date": "February 12th, 2014", "title": "Boy in Luv", "sale": 5, "color": "#6d2428"},
+    {"name": "Dark n Wild", "date": "August 19th, 2014", "title": "Danger", "sale": 16, "color": "#304833"},
+    {"name": "HYYH: Pt 1", "date": "April 29th, 2015", "title": "I Need U", "sale": 55, "color": "#fdf4f3"},
+    {"name": "HYYH: Pt 2", "date": "November 30th, 2015", "title": "Run", "description": 86, "color": "#77cdec"},
+    {"name": "HYYH: Young Forever", "date": "May 2, 2016", "title": "Fire, Save Me", "sale": 164, "color": "#f1f6ad"},
+    {"name": "Wings", "date": "October 10th, 2016", "title": "Blood, Sweat, and Tears", "sale": 347, "color": "#111111"},
+    {"name": "You Never Walk Alone", "date": "February 13th, 2017", "title": "Spring Day, Not Today", "sale": 373, "color": "#89cfc3"},
+    {"name": "Love Yourself: Her", "date": "September 18th, 2017", "title": "DNA", "description": 750, "color": "#f4f7fd"},
+    {"name": "Love Yourself: Tear", "date": "May 18th, 2018", "title": "Fake Love", "sale": 1000, "color": "#161824"},
+    {"name": "Love Yourself: Answer", "date": "August 24th, 2018", "title": "Idol", "sale": 860, "color": "#f3aac7"},
+    {"name": "Map of the Soul: Persona", "date": "April 12th, 2019", "title": "Boy With Luv", "sale": 2100, "color": "#fe769c"}
+
+]

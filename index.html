@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BTS Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+</head> 
+ 
+<body>
+<!--Opening Graphique-->
+    <div class="opening">
+        <h1>방탄소년단:
+            <br>a reflection of youth</h1>
+    </div>
+<!--Slideshow About BTS' achievements-->
+    <div class="info">
+    <div class="slides">
+    <div class="container">
+        <img src="img.jpg" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">BTS (Hangul: 방탄소년단; RR: Bangtan Sonyeondan), also known as the Bangtan Boys, is a seven-member South Korean boy band formed by BigHit Entertainment.<br><br>The group consists of RM (rapper and leader), Jin (vocalist), Suga (rapper), J-Hope (rapper), Jimin (vocalist), V (vocalist), and Jungkook (vocalist). </div>
+        </div>
+      </div>
+      <div class="container">
+          <img src="debut.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">The group debuted on June 13th, 2013 with the song <a href="https://www.youtube.com/watch?v=rBG5L7UsUxA" target="_blank">"No More Dream".</a><br><br>One month later, they announced their fan club, A.R.M.Y. (아미).</div>
+          </div>
+        </div>
+        <div class="container">
+            <img src="roty.jpg" alt="Avatar" class="image">
+            <div class="overlay">
+              <div class="text">In early 2014, BTS won <a href="https://www.youtube.com/watch?v=_ypxL9AKj1Q" target="_blank">“Rookie of the Year”</a> at all the well known Korean award shows.</div>
+              </div>
+            </div>
+          <div class="container">
+              <img src="first win.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">In 2015, following the release of <a href="https://www.youtube.com/watch?v=NMdTd9e-LEI" target="_blank">“I Need U”</a>, BTS got their very first music show <a href="https://www.youtube.com/watch?v=3_dl8YOO2jw" target_="_blank">win</a> on SBS MTV’s “The Show”.</div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="first daesang.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">BTS won their first album of the year <a href="https://www.youtube.com/watch?v=oBLnlGZCXtI" target="_blank">grand prize</a> at the Melon Music Awards for <a href="https://open.spotify.com/album/7qvA0kf1dkmR1As2gOnBPn" target="_blank">“The Most Beautiful Moment In Life: Young Forever”</a> in late 2016.<br><br>They did not expect to win.</div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="bbma.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">In 2017, BTS was the first K-Pop group to be nominated for a Billboard Music Award for top social artist.<br><br>They <a href="https://www.youtube.com/watch?v=IgxetmJzJdg" target="_blank">won.</a></div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="ama.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">A few months later, following the release of <a href="https://open.spotify.com/album/2FTS6a6DLXMNp8flyA0HGO" target="_blank">Love Yourself: Her</a>, BTS was invited to perform at the <a href="https://www.youtube.com/watch?v=rH1PVvFj8cE" target="_blank">American Music Awards.</a><br><br>They were the first K-Pop group to perform on an American awards stage.</div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="culture.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Following the record breaking release of <a href="https://open.spotify.com/album/2jJfnAZE6IG3oYnUv2eCj4" target="_blank">“Love Yourself: Tear”</a> in 2018, BTS became the youngest ever recipients of the <a href="https://www.youtube.com/watch?v=R4rXZvdgDDA" target="_blank">“Order of Cultural Merit”</a> award. <br><br> They were awarded by the president of South Korea for their contributions to spreading Korean culture and Language.</div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="un.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">Later that year, they spoke at the <a href="https://www.youtube.com/watch?v=ZhJ-LAQ6e_Y&t=266s" target="_blank">73rd United Nations General Assembly.</a></div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="snl.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">In 2019, BTS became the first K-Pop group to perform on <a href="https://www.youtube.com/watch?v=O4NB73HTlxI" target="_blank">Saturday Night Live.</a><br><br>Their album, <a href="https://open.spotify.com/album/1AvXa8xFEXtR3hb4bgihIK" target="_blank">"Map of the Soul: Persona"</a>, has been topping music charts worldwide and breaking records since it's April 12th release.</div>
+                </div>
+              </div>
+          <div class="container">
+              <img src="final2.gif" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="text">A.R.M.Y and BTS always work together to push the group towards unprecedented heights. <br><br>Follow them at <a href="https://twitter.com/BTS_twt" target="_blank">@BTS_twt!</a></div>
+                </div>
+              </div>
+          </div>  
+
+      </div>
+<!--Graph-->
+    <div class="graph">
+    <div id="chart"></div>
+    </div>
+    
+	<script type="text/javascript" src="js/script.js"></script>
+</body> 
+</html>
