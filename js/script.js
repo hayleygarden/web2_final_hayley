@@ -4,6 +4,7 @@ var translateValue = 0;
 var wrapper = $("slideshow-wrapper").get[0];
 var numSlides = $(".slideshow-wrapper > div").length
 
+console.log(numSlides);
 function goToPrevSlide() {
   if(slideIndex === 0) {
 		return;
@@ -12,7 +13,6 @@ function goToPrevSlide() {
 	slideIndex--;
 	translateValue = translateValue + slideWidth();
 	$(".slideshow-wrapper").css({"transform": "translateX("+translateValue+"px)"});
-
 }
 
 function goToNextSlide() {
